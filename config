@@ -1,0 +1,24 @@
+# Preferences
+
+theme = rose-pine
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 12.0
+adjust-cell-height = 14
+adjust-cell-width = -5%
+
+# General keybindings
+keybind = ctrl+`=toggle_quick_terminal
+keybind = super+o=open_config
+
+# Windows and splits keybindings
+keybind = super+shift+v=new_split:right
+keybind = super+shift+s=new_split:down
+keybind = super+shift+l=goto_split:right
+keybind = super+shift+h=goto_split:left
+keybind = super+shift+k=goto_split:top
+keybind = super+shift+j=goto_split:bottom
+keybind = super+shift+z=toggle_split_zoom
+
+# Scrolling keybindings
+keybind = super+shift+e=scroll_page_up
+keybind = super+shift+y=scroll_page_down
